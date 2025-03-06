@@ -18,6 +18,6 @@ public class MyController {
 
     @GetMapping("api-key")
     public String getApiKey() {
-        return apiKey;
+        return apiKey + " from controller";
     }
 }
